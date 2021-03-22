@@ -36,17 +36,25 @@ document.write(result)
 
 
 var age = prompt("what is your age?");
+function knowAge(personAge) {
 
-console.log(age);
+    console.log(personAge);
 
-if (age >= 15 && age < 45) {
-    {
-        alert('go on and learn');
-    }
-    if (age < 15 || age > 45) {
-        alert('go on too')
-    }
-}
+    if (personAge >= 15 && personAge < 45) 
+        {
+            alert('go on and learn');
+        }
+        if (personAge < 15 || personAge > 45) {
+            alert('go on too');
+        }
+
+
+    
+} knowAge(age);
+
+
+    
+
 
 var bored = true;
 if (bored == true) {
