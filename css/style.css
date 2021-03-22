@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(251, 255, 255);
+    margin: 0%;
+}
+
+
+header{
+    color: rgb(44, 8, 36);
+    
+    height: 70px;px;
+    font-style:italic;
+
+
+}
+header nav {
+
+    float: right;
+    margin-top:30 ;
+    
+}
+header h1{
+    float: left;
+    margin-left: 30px;
+    
+}
+
+header nav ul li{
+
+    display: inline-block;
+}
+
+header nav ul li a{
+     list-style-type: upper-latin;
+    color: crimson;
+    text-decoration:none ;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+#test-one{
+    background-color: rgb(236, 230, 236);
+    font-style: inherit;
+    text-align:center;
+    list-style-type: upper-alpha;
+}
+
+#test-one h2{
+    font-size: 50px;
+    color: rgb(247, 168, 194);
+     font-style: italic;
+}
+
+#test-one p{
+    font-size: 20px;
+    font-style: initial;
+    
+}
+
+#test-two{
+    color: lightcoral;
+    
+    font: size 20px;;
+    background-image:linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% ););
+}
+
+.my-image{
+    text-align:center;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin:left 30px;;
+    
+}
+.my-image img{
+    margin: bottom 70px;
+    height: 90px;
+}
+
+footer{
+    height: 100px;
+    color: rgb(51, 6, 6);
+    background-color: linen;
+
+}
+footer p{
+    font-size: 20px;
+    color: maroon;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
